@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.banner{
+    background-color: #B01919;
+}
+.navbar-ele{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 25% auto ; 
+}
+.inner-money-div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    list-style: none;
+}
+.wrapper>ul>li{
+    list-style: none;
+    text-align: center; 
+}
+.wrapper>p{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.6em;    
+
+}
+.wrapper{
+    margin: 0% 4.7%;
+    
+}
+.money-icon{
+    width: 40px;
+    padding: 1.4em 0rem 1.4rem 0rem;
+    color: #FFFFFF;
+}
+.money{
+    padding: 1.5rem 4rem 1rem 0rem;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+.exit-btn{
+    margin: 1.4em;
+    width:25px;
+}
+.title{
+    padding: 1.3rem ;
+    cursor: default;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-btn{
+    background-color: #b01919;
+    color: white;
+    border-radius: 10px;
+    padding: 0.6em;
+    margin: 0.6em;
+    cursor: pointer;
+    font-family: montserrat;
+    font-size: 16px;
+    border-style: none;
+}
+.container{
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 13px;
+    padding: 0px;
+    width: 100%;
+}
+.title-text{
+    
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 1em;  
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+.text-input{
+    margin: 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(196, 196, 196, 0.01);
+    padding: 0.2em 0.5em;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 62% 18% 20%;
+    margin: 0.5em 2em;
+}
+.my-btn-small{
+    background: rgba(196, 196, 196, 0.01);
+    border-style: none;
+    cursor: pointer;
+    font-family: montserrat;
+    font-size: 16px;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+}
+.text-small{
+    font-family: montserrat;
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+/*CODE BELOW IS FOR DESKTOP VIEW i.e. width above 700px*/
+@media only screen and (min-width: 700px){
+    .wrapper{
+        padding: 0em 15%;
+    }
+    #popup{
+        width: 30%;
+    }
+    .myButton{
+        width: 50%;
+    }
+    .myButton2{
+        width: 40%;
+    }
+}

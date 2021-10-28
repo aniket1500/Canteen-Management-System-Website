@@ -1,0 +1,176 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: montserrat;
+}
+*{
+    margin: 0;
+    padding: 0;   
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.nav-list{
+    display: flex;
+    width: 90%;
+}
+.title{
+    display: flex;
+    position: relative;
+    left: 10%;
+    padding-top: 15px;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.37);
+}
+.title b{
+    color:#b01919;
+    font-size: 50px;
+}
+.title a{
+    text-decoration: none;
+}
+.nav-list li{
+    list-style: none;
+    padding: 24px 25px;
+    position: relative;
+    left: 65%;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    color: #b01919;
+}
+/* .bg img{ 
+    background-image: url("bgimg.jpeg");
+    width: 100%;
+}  */
+.background{
+    background: rgb(0, 0, 0, 0.7) url("../img/img2.jpg");
+    background-size: cover;
+    /* background-blend-mode: unset; */
+}
+
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;  
+    color: black;
+    position: relative;
+    top: 14%;
+    /* left: 5.5%; */
+    padding-left: 6%;
+} 
+.quote{
+    font-size: 30px;    
+}
+.btn1{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 7%;
+    
+    background-color: #b01919;
+    padding: 7px 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 1px solid #b01919;
+    cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2{
+    display: flex;
+    position: relative;
+    top: 51.5%;
+    left: 7%;
+    padding: 7px 10px;
+    font-size: 34px;
+    border: 2px solid rgb(0,0,0, 0.2);
+    border-radius: 10px;
+    width: 220px;
+    background-color: black;
+    cursor: pointer;
+}
+.btn2 a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+.btn2:hover{
+    color: #b01919;
+}
+/* .check{
+    opacity: 0;
+}
+#sidebarMenu{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    margin-top: 82px;
+    background: none;
+    transform: translateX(-200px);
+    transition: 250ms ease-in-out;
+}
+#openSidebarMenu:checked ~ #sidebarMenu{
+    transform: translateX(0px);
+}
+.menu li{
+    list-style: none;
+    padding: 14px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.menu li a:hover{
+    color: white;
+}
+.sidebarIconToggle{
+    width: 28px;
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 3px;
+    background: black;
+    transition: all 0.3s;
+    display: block;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.bar.middle, .bar.bottom{
+    margin-top: 3px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .bar.middle{
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .bar.top{
+    transform: rotate(135deg);
+    margin-top: 12px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .bar.bottom{
+    transform: rotate(-135deg);
+    margin-top: -13px;
+} */
+@media only screen and (max-width: 700px){ 
+
+}

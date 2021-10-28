@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.banner{
+    background-color: #B01919;  
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+.navbar-ele{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 15% auto 15%; 
+}
+.inner-money-div{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    list-style: none;
+}
+.wrapper>ul>li{
+    list-style: none;
+    text-align: center; 
+}
+.wrapper>p{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1.5em 0em;    
+}
+.wrapper{
+    margin: 0em 5em;
+}
+
+.money-icon{
+    width: 40px;
+    padding: 1.4em 0rem 1.4rem 0rem;
+    color: #FFFFFF;
+}
+.money{
+    padding: 1.5rem 4rem 1rem 0rem;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.exit-btn{
+    margin: 1.4em;
+    width:25px;
+}
+.title{
+    padding: 1.3rem ;
+    cursor: default;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search{
+    padding-top: 10px;
+    background-color:rgb(129, 39, 39);
+    height: 50px;
+    border-radius: 40px;
+    padding: 1%;
+    margin: 0.2 em;
+    width: 80%;
+    outline: none;
+    color: white;
+    padding-left: 20px;    
+}
+::placeholder{
+    color: white;
+}
+.form-search>button>img{
+    width: 25px;
+}
+.form-search>button{
+    border-style: none;
+    background-color: rgb(202, 202, 202);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.category-title{
+    background: #F9D3D3;   
+}
+.category-title>p{
+    padding: 0.2em;
+}
+.menu-item{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+.item-name{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.3em;
+    margin: 0%;
+}
+.add-btn{
+    width: 50%;
+    background-color: white;
+    border-style: none;
+}
+.minus-btn{
+    width: 50%;
+    background-color: white;
+    border-style: none;
+    
+}
+
+.quantity{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+.quantity-q{
+    font-family: montserrat;
+}
+
+.checkout-btn>button{
+    width: 100%;
+    background-color: #b01919;
+    color: white;
+    border: none;
+    padding: 1em;
+    margin: auto;
+    top: 70%;
+    right: 0px;
+}
+.checkout-btn:hover{
+    cursor: pointer;
+}
+#checkout-btn-id{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#checkout-id{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 0.4em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 700px){
+    .wrapper{
+        padding: 0em 15%;        
+    }
+    .search{
+        width: 90%;
+    }
+}
